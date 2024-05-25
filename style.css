@@ -1,0 +1,488 @@
+
+
+
+/* -------------------HEADER------------------ */
+
+header{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+
+}
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 80%;
+    padding: 0px 96px 0px 96px; 
+    height: 95px;
+    border: 0;
+    
+    
+    
+}
+
+.logo img{
+    background: #fff;
+    height: 35px;
+    width: 80px;
+    box-sizing: border-box;
+    pointer-events: none;
+    display: inline-block;
+    
+}
+
+.nav_links{
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    opacity: 1;
+    padding: 0px ;
+    position: static;
+    top: 0px;
+    transform: none;
+    transition: none 0s ease 0s; 
+    z-index: 1;
+    margin-right: 20%;
+    list-style: none;
+    
+}
+
+.nav_links li a{
+    margin: 0px 32px 0px 0px;
+    color: #666666;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    pad: 0px;
+    
+}
+
+.wrapper video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+    
+}
+
+.model{
+    font-weight: 700;
+    margin: 0 auto 18px;
+    width: 92%;
+    cursor: pointer;
+
+}
+
+.modeller{
+    display: flex;
+    list-style: none;
+    margin: 0 auto 36px;
+    
+}
+
+.modeller li{
+    margin-left: 36px;
+    display: inline-block;
+    color:  #666666;
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.araçlar{
+    position: relative;
+    width: 100%;
+}
+.araçfoto{
+    display: flex;
+    list-style: none;
+}
+
+.araçfoto li{
+    padding: 25px;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    
+}
+
+.araçfoto li span{
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    
+    text-align: center;
+}
+
+
+.topluarac{
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+   
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.topluaracimg{
+    height: 1400px;
+    position: absolute;
+    width: 100%;
+    
+    
+}
+
+.topluaracimg img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+    
+
+}
+
+.ictasarım{
+    top: 98px;
+    transform: translate3d(0px, 94px, 0px);
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    position:absolute;
+    backface-visibility: hidden;
+    
+    
+    
+}
+
+.ictasar{
+    left: 4%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 40px 40px 40px 40px;
+    flex-basis: 56%;
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    
+    
+}
+
+.ictasar h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: 130%;
+    width: 506.875px;
+}
+
+.ictasar p{
+    font-size: 20px;
+}
+
+.sedan{
+ position: absolute;
+ align-items: end;
+ margin-top: 1500px;
+    
+}
+
+.sedan img{
+    width: 900px;
+    font-weight: 400;
+    margin: 38px 48px 39px 79px;
+}
+
+.A6AUD{
+    display: block;
+    margin-top: 1500px;
+    margin-left: 1200px;
+    padding-top: 220px;
+}
+
+.A6AUD h2{
+    font-size: 50px;
+}
+
+.A6AUD p{
+    color: #666666;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    margin-left: 1200px;
+    padding-top: 220px;
+    margin-top: -200px;
+    align-items: center;
+}
+
+
+.btn a{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: .1s;
+    border: 2px solid black;
+}
+
+.btn a:hover{
+    background-color: gray;
+
+}
+
+.btn a:last-child{
+    background-color: white;
+    color: black;
+}
+
+.köprü{
+    position: absolute;
+    align-items: end;
+    margin-top: 700px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+}
+
+.köprü img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+}
+
+.icyazi{
+    text-align: right;
+    margin-right: 0px;
+    margin-left: auto;
+    pointer-events: all;
+}
+
+.icyazidetay{
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin-top: -1000px;
+    margin-right: 120px;
+    vertical-align: baseline;
+}
+
+.icyazidetay h1{
+    font-size: 60px;
+}
+
+.icyazidetay p{
+    font-size: 30px;
+}
+
+.btniki{
+    margin-right: 130px;
+    margin-top: 100px;
+    
+}
+
+.btniki a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+
+}
+
+.btniki a:hover{
+    background-color: #666666;
+}
+
+.sedan2{
+    position: absolute;
+    align-items: end;
+    margin-top: 2000px;
+       
+   }
+   
+.sedan img{
+       width: 900px;
+       font-weight: 400;
+       margin: 38px 48px 39px 79px;
+   }
+   
+.A6AUD2{
+       display: block;
+       margin-top: 2000px;
+       margin-left: 1000px;
+       padding-top: 220px;
+   }
+   
+.A6AUD2 h2{
+       font-size: 50px;
+   }
+   
+.A6AUD2 p{
+       color: #666666;
+       font-size: 20px;
+   }
+
+.btn2 {
+    margin-right: 130px;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 950px;
+    
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.btn2 a:hover{
+    background-color: gray;
+
+}   
+
+
+.altılıreklam{
+    margin-top: 600px;
+    
+    
+}
+
+.altılıreklamicerik{
+    height: 450px;
+    width: 30%;
+    float: left;
+    margin-top: 150px;
+    padding: 8px;
+
+
+
+
+}
+
+.altılıreklamicerik img{
+    width: 100%;
+    
+    
+    
+}
+
+
+.altılıreklamicerik ul{
+    font-size: 20px;
+    list-style: none;
+    text-align: start; 
+    padding-left: 0px;
+    color: #333;
+    
+
+}
+
+.altılıreklamicerik ul li:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1a1a1a;
+
+    
+    
+}
+
+.etiketci{
+    display: contents;
+    
+}
+
+.etiketci a{
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.foot-panel-1{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 2000px;
+    transition: all 0.3s;
+}
+
+.foot-panel-1 a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.foot-panel-1 a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.foot-panel-2{
+    background-color: black;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel-2 ul{
+    margin-top: 20px;
+}
+
+.foot-panel-2 ul li{
+    list-style: none;
+}
+
+.foot-panel-2 ul li a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    transition: all 0.3s;
+
+}
+
+.foot-panel-2 ul p{
+    font-size: 30px;
+}
+
+.foot-panel-2 ul li a:hover{
+    color: #333;
+}
